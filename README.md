@@ -1,3 +1,9 @@
+<div align="center" >
+
+<img width="627" alt="banner (1)" src="https://user-images.githubusercontent.com/95305611/176699894-1f679c22-510b-41e6-bc09-ba5509bba627.png">
+
+</div>
+
 A minimalistic webapp designed for fast collaborative note taking, created with Javascript/Typescript, Reactjs, Nodejs, Socket.io and runs on a GraphQL Server.
 
 # Demo
@@ -45,30 +51,30 @@ This is a learning project. I wanted to learn web development and so decided to 
 -   Mark pages favourite, access them easily from sidebar
 -   Share with others by adding their email, and manage permissions easily
     -   Added members are added as "collaboraters", meaning they would have access to edit the page but not change the title or delete it or invite other members.
-        -   A Team menu will appear when you add users to a page, and from there you can make them admins who will have access to invite other users to the page and make them admins.
+    -   A Team menu will appear when you add users to a page, and from there you can make them admins who will have access to invite other users to the page and make them admins.
     -   Only the owners (the person who created the page) can change title or delete the page.
 -   Loading svg to indicate to the user that the request is being carried out
 -   Paste image url
 
 # How it works
 
-## The WYSIWYG editor
+### The WYSIWYG editor
 
 The editor is built with [Slate](https://github.com/ianstormtaylor/slate). Slate stores the entire document as a JSON object and provides easy to use methods to modify the contents.
 
-## Collaboration
+### Collaboration
 
 In slate, every change in content is treated as an "operation" applied to the editor. Operation such as "add letter 'a' at offset 13 on 5th paragraph". Each operation is sent to the server using socket.io, and there it gets broadcasted to all other connected clients. When a client recieves certain operation, it gets applied to the slate edtior.
 
-## API
+### API
 
 The project uses a GraphQL server attached with an Express Server to handle fetching data (getting pages of a user or users of a page), creating/deleting pages, checking for permissions, sharing a page with other users and then changing their access to it, etc.
 
-## Database
+### Database
 
 The data of users and their associated pages is stored in a PostgreSQL database, since it can be modelled as a simple many-to-many relationship (each user has many pages and each page has many users) and thus would be stored efficiently in a RDBMS. The page contents are stored in a MongoDB database, since that data would be huge.
 
-## User Authentication
+### User Authentication
 
 This project uses JWT for authenticaiton/authorization. This is the authentication strategy used :
 
