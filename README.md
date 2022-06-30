@@ -1,6 +1,6 @@
 <div align="center" >
 
-<img width="627" alt="banner (1)" src="https://user-images.githubusercontent.com/95305611/176699894-1f679c22-510b-41e6-bc09-ba5509bba627.png">
+<img width="627" alt="banner" src="https://user-images.githubusercontent.com/95305611/176699894-1f679c22-510b-41e6-bc09-ba5509bba627.png">
 
 </div>
 
@@ -113,8 +113,8 @@ I had a fun time working on this project, right now its on hold but I will proba
 Here is a list of some sources that helped me in building this project:
 
 -   Fireship's [TailwindCSS tutorial](https://youtu.be/pfaSUYaSgRo)
--   Ben Awad's [Google Clone playlist](https://youtube.com/playlist?list=PLN3n1USn4xllb05dQVmRbVtGP2aM4seVq)
--   Tech Dummies' [Google Doc System Design](https://youtu.be/U2lVmSlDJhg)
+-   Ben Awad's [Google Docs Clone playlist](https://youtube.com/playlist?list=PLN3n1USn4xllb05dQVmRbVtGP2aM4seVq)
+-   Tech Dummies' [Google Docs System Design](https://youtu.be/U2lVmSlDJhg)
 -   Ben Awad's [JWT authentication Node.js tutorial](https://youtu.be/25GS0MLT8JU)
 
 # License
