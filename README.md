@@ -43,6 +43,19 @@ This is a learning project. I wanted to learn web development and so decided to 
 
 # Features
 
+    
+-   Share with others by adding their email, manage permissions easily and collaborate with changes synced real-time.
+    
+    ![grps](https://user-images.githubusercontent.com/95305611/177324674-d47364da-5118-4c14-8df1-1eabf5d7a232.gif)
+
+    -   Added members are added as "collaboraters", meaning they would have access to edit the page but not change the title or delete it or invite other members.
+    -   A Team menu will appear when you add users to a page, and from there you can make them admins who will have access to invite other users to the page and make them admins.
+    -   Only the owner (the person who created the page) can change title or delete the page.
+    
+    ![grpm](https://user-images.githubusercontent.com/95305611/177324713-4f8d4204-a424-46a8-b169-2a312d20d24f.gif)
+
+    ---
+    
 -   Markdown shortcuts :
     -   `# ` , `##` , ` ###` => headings
     -   ` ``` ` => codeblock
@@ -54,6 +67,7 @@ This is a learning project. I wanted to learn web development and so decided to 
     ![mdsh](https://user-images.githubusercontent.com/95305611/177314298-234c2d5d-2a48-465c-9851-eeacab191574.gif)
 
     ---
+
 
 -   Toolbar, with options to convert selected text to any other block type, or make it bold,italic,underlined,strikethrough, hightlighted or code.
     
@@ -70,18 +84,6 @@ This is a learning project. I wanted to learn web development and so decided to 
 -   Mark pages favourite, access them easily from sidebar
 
     ![favsec](https://user-images.githubusercontent.com/95305611/177320633-06761970-3902-4b2d-980e-3c9da89182a5.gif)
-
-    ---
-
--   Share with others by adding their email, and manage permissions easily
-    
-    ![grps](https://user-images.githubusercontent.com/95305611/177324674-d47364da-5118-4c14-8df1-1eabf5d7a232.gif)
-
-    -   Added members are added as "collaboraters", meaning they would have access to edit the page but not change the title or delete it or invite other members.
-    -   A Team menu will appear when you add users to a page, and from there you can make them admins who will have access to invite other users to the page and make them admins.
-    -   Only the owner (the person who created the page) can change title or delete the page.
-    
-    ![grpm](https://user-images.githubusercontent.com/95305611/177324713-4f8d4204-a424-46a8-b169-2a312d20d24f.gif)
 
     ---
 
