@@ -94,6 +94,9 @@ This is a learning project. I wanted to learn web development and so decided to 
 
 # How it works
 
+<img width="771" alt="workflow of the app" src="https://user-images.githubusercontent.com/95305611/178270811-cc0119cc-0de0-41ba-8e69-a36ab1bdae3c.png">
+
+
 ### The WYSIWYG editor
 
 The editor is built with [Slate](https://github.com/ianstormtaylor/slate). Slate stores the entire document as a JSON object and provides easy to use methods to modify the contents.
